@@ -1,4 +1,7 @@
 package com.example.nativewendy
 
-class Login(username:String, password:String) {
+class Login(var username:String, var password:String) {
+    override fun toString(): String {
+        return "$username $password"
+    }
 }
